@@ -1,0 +1,42 @@
+{
+  "documents": [
+    {
+      "document_id": "sba_sop_50_10_7_1",
+      "source_file": "SOP-50-10-7.1-effective-11.15.pdf",
+      "pages": 470,
+      "outline_entries": 90,
+      "sections_with_content": 171,
+      "chunks": 543,
+      "body_font_size": 12.0,
+      "tables_detected": 1,
+      "profile": "sba_sop",
+      "version": "SOP 50 10 7.1; effective 2023-11-15"
+    },
+    {
+      "document_id": "irs_pub_334_2025",
+      "source_file": "p334.pdf",
+      "pages": 57,
+      "outline_entries": 118,
+      "sections_with_content": 109,
+      "chunks": 162,
+      "body_font_size": 10.0,
+      "tables_detected": 9,
+      "profile": "irs_pub334",
+      "version": "Publication 334 for 2025 returns; published 2026-02-10"
+    }
+  ],
+  "total_chunks": 705,
+  "chunking": {
+    "max_tokens": 800,
+    "overlap_tokens": 100,
+    "min_tokens": 80,
+    "table_extraction": "auto",
+    "tokenizer": "character approximation",
+    "strategy": "PDF-outline + layout-aware hierarchical semantic chunking; overlap only within topic"
+  },
+  "token_stats": {
+    "min": 82,
+    "max": 795,
+    "mean": 595.2
+  }
+}
